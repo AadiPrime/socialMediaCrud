@@ -1,0 +1,26 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+}
+h1{
+    color: #4c00b0;
+    padding: 2%;
+}
+.container{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#msg{
+    color: blue;
+}
+#posts > .card{
+    border: 0.2px solid white;
+   margin-top: 2%;
+   padding: 2%;
+   box-shadow: rgba(135, 135, 238, 0.2) 0px 7px 29px 0px;
+}
